@@ -1,0 +1,56 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
+/* Define Color Variables */
+:root {
+  --bg-dark: #121212;
+  --text-light: #F0F0F0;
+  --accent-red: #CC0000;
+  --card-grey: #333333;
+}
+
+/* Global Styles */
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+}
+
+/* Headings and Headers */
+h1, h2, h3, th {
+  font-family: 'Bebas Neue', sans-serif;
+  text-transform: uppercase;
+}
+
+h1, h2, h3 {
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+h1 {
+  border-bottom: 2px solid var(--accent-red);
+  padding-bottom: 10px;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th {
+  font-size: 1.5rem;
+  background-color: var(--card-grey);
+  color: var(--accent-red);
+  padding: 15px;
+  text-align: center;
+  border-bottom: 2px solid var(--accent-red);
+}
+
+td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #444;
+}
