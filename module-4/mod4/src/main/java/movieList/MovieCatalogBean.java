@@ -1,6 +1,6 @@
 package movieList;
 
-// package com.example;
+// package movieList;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +12,7 @@ public class MovieCatalogBean implements Serializable {
     private List<Movie> movieList = new ArrayList<>();
 
     public MovieCatalogBean() {
-        // Sample data matching your list
+    	// movie titles from module 2
         movieList.add(new Movie("Reservoir Dogs", "1992", "Miramax", "Quentin Tarantino", "Crime"));
         movieList.add(new Movie("Pulp Fiction", "1994", "Miramax", "Quentin Tarantino", "Crime"));
         movieList.add(new Movie("Jackie Brown", "1997", "Miramax Films", "Quentin Tarantino", "Crime"));
